@@ -1,35 +1,37 @@
-🎧 Spotify Clone App
-A full-stack music streaming web application that replicates the core functionalities of Spotify. Built with a modern tech stack, the project focuses on delivering a seamless user experience, responsive UI, and real-time music playback.
+<h1 align="center">Realtime Spotify Application ✨</h1>
 
-🔧 Key Features:
-User Authentication: Secure login/register system with JWT-based authentication.
+![Demo App](/frontend/public/screenshot-for-readme.png)
 
-Browse & Play Music: Users can browse playlists, albums, and songs with real-time playback.
+About This Course:
 
-Create & Manage Playlists: Add, edit, and delete custom playlists.
+- 🎸 Listen to music, play next and previous songs
+- 🔈 Update the volume with a slider
+- 🎧 Admin dashboard to create albums and songs
+- 💬 Real-time Chat App integrated into Spotify
+- 👨🏼‍💼 Online/Offline status
+- 👀 See what other users are listening to in real-time
+- 📊 Aggregate data for the analytics page
+- 🚀 And a lot more...
 
-Search Functionality: Instantly search for songs, artists, and albums.
+### Setup .env file in _backend_ folder
 
-Audio Player: Fully functional audio player with play, pause, skip, repeat, and shuffle options.
+```bash
+PORT=...
+MONGODB_URI=...
+ADMIN_EMAIL=...
+NODE_ENV=...
 
-Responsive Design: Works smoothly on desktop, tablet, and mobile screens.
+CLOUDINARY_API_KEY=...
+CLOUDINARY_API_SECRET=...
+CLOUDINARY_CLOUD_NAME=...
 
-🛠️ Tech Stack:
-Frontend: React, Tailwind CSS
 
-Backend: Node.js, Express.js
+CLERK_PUBLISHABLE_KEY=...
+CLERK_SECRET_KEY=...
+```
 
-Database: MongoDB
+### Setup .env file in _frontend_ folder
 
-Authentication: JWT, bcrypt
-
-File Storage: Cloudinary (for song/album art)
-
-State Management: Redux
-
-💡 Highlights:
-Mimics Spotify’s design and functionality.
-
-Focus on performance optimization and clean UI.
-
-Real-time audio control and media management.
+```bash
+VITE_CLERK_PUBLISHABLE_KEY=...
+```
